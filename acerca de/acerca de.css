@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c8f7d0, #87d9b4);
+}
+
+/* ANIMACIÓN DE ENTRADA */
+.entrada {
+    animation: entrar 0.6s ease forwards;
+}
+
+@keyframes entrar {
+    0% { opacity: 0; transform: translateY(25px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ANIMACIÓN DE SALIDA */
+.salida {
+    animation: salir 0.6s ease forwards;
+}
+
+@keyframes salir {
+    0% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(25px); }
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-volver {
+    display: inline-block;
+    background: #1a7d57;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-volver:hover {
+    background: #145d42;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+/* TARJETAS */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}

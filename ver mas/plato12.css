@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f6f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.encabezado h1 {
+    font-size: 2rem;
+}
+
+.encabezado p {
+    margin-top: 6px;
+    font-size: 1.1rem;
+}
+
+/* Imagen */
+.imagen-principal {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.imagen-principal img {
+    width: 350px;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Secciones */
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #1b5e20;
+    margin-bottom: 10px;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+}
+
+ul li {
+    background-color: white;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Contacto */
+.contacto .datos p {
+    margin: 6px 0;
+}
+
+/* Frase */
+.frase {
+    text-align: center;
+    font-style: italic;
+    margin: 30px 0;
+    color: #555;
+}
+
+/* Botón */
+.botones {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #1b5e20;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #145a1f;
+}

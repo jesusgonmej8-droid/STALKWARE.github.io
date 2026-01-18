@@ -1,0 +1,61 @@
+.volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* ---------- AGREGADO SIN MODIFICAR TU CÓDIGO ---------- */
+
+body {
+    text-align: center;
+    background: white;
+    font-family: Arial;
+}
+
+.galeria img {
+    width: 250px;
+    border-radius: 12px;
+    margin: 15px;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto, .Productos {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 12px;
+    width: 250px;
+}
+
+.producto img, .Productos img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.precio {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-comprar {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-comprar:hover {
+    background: #3e8e41;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones</title>
+    <link rel="stylesheet" href="opiniones.css">
+</head>
+<body>
+
+<div class="contenedor entrada">
+
+    <div class="card">
+        <h1>📝 Opiniones</h1>
+        <p class="descripcion">Tu opinión es muy importante para mejorar nuestros productos ecológicos.</p>
+
+        <form id="form-opinion">
+
+            <div class="input-box">
+                <label>1. ¿Cómo calificarías la página web?</label>
+                <select required>
+                    <option value="">Selecciona una opción</option>
+                    <option>Excelente</option>
+                    <option>Buena</option>
+                    <option>Regular</option>
+                    <option>Mala</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label>2. ¿Qué tan satisfecho estás con los productos?</label>
+                <select required>
+                    <option value="">Selecciona una opción</option>
+                    <option>Muy satisfecho</option>
+                    <option>Satisfecho</option>
+                    <option>Poco satisfecho</option>
+                    <option>Nada satisfecho</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label>3. ¿Recomendarías nuestros productos?</label>
+                <select required>
+                    <option value="">Selecciona una opción</option>
+                    <option>Sí</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label>4. ¿Qué mejorarías?</label>
+                <textarea rows="4" required placeholder="Escribe aquí tu opinión..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Opinión</button>
+        </form>
+
+        <a href="../menu/menu.html" class="btn-volver">⬅ Regresar al Menú</a>
+    </div>
+
+</div>
+
+<script src="opiniones.js"></script>
+
+<div id="cookies-banner" class="cookies">
+    Este sitio usa cookies para mejorar tu experiencia.
+    <button id="aceptarCookies">Aceptar</button>
+</div>
+
+<script src="../js/cookies.js"></script>
+
+</body>
+</html>
